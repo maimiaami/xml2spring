@@ -1,0 +1,646 @@
+﻿<DATASET>
+  <xs:schema id="DATASET" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="DATASET" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="SYS_BM_ACT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_ID2" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_RQST" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_TRGT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_RSLT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_TYPE" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_NAME" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_DESC" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBO_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_DEBUG" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_RAW" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_LANG" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_INDX" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_STAT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SU_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_ORGN" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_FLAG" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_STMP" msdata:Caption="" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SBA_CRET" msdata:Caption="" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SBA_STCH" msdata:Caption="" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SBA_UTST" msdata:Caption="" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SBA_ITST" msdata:Caption="" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SBA_RELE" msdata:Caption="" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SBA_DROP" msdata:Caption="" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="SBA_TEST" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_MIG" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_SVC" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_MOD" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_SRC" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_LOCK" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_TAG" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_DATA" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_ASSY" msdata:Caption="" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="SBA_UPCHK" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_BM_ACT_DISP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBAD_GRID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBAD_RATE" msdata:Caption="" type="xs:float" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_BM_CMD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBC_MTHD" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_RQST" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_RSLT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_PRE" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_POST" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_TYPE" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_RAW" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_CMNT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_INDX" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_SUBS" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_PREP" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_POSTP" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_INFO" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_PROP" msdata:Caption="" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_BM_CMD_DISP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBCD_TYPE" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBCD_NAME" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBCD_CELL" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBCD_CONN" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBCD_PICK" msdata:Caption="" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_BM_PRE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBP_SEQ" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBP_TRGT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBP_SRC" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBP_INDX" msdata:Caption="" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_BM_PRE_MAPP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBP_SEQ" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBP_TRGT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBPM_RGHT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBPM_TYPE" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBP_SRC" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBPM_LEFT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBPM_RTYP" msdata:Caption="" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_BM_POS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBP_SEQ" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBP_SRC" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBP_TRGT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBP_INDX" msdata:Caption="" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_BM_POS_MAPP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBP_SEQ" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBP_SRC" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBPM_LEFT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBPM_TYPE" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBP_TRGT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBPM_RGHT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBPM_LTYP" msdata:Caption="" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_BM_NXT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBN_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBN_CVAL" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBN_CMIN" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBN_CMAX" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBN_IDNX" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SE_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBN_DESC" msdata:Caption="" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_BM_NXT_DISP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBN_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBND_NAME" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBND_DOTS" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBND_NMPT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBND_PICK" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SE_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBC_CNM" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBN_CNM" msdata:Caption="" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_BM_CMD_MTHD_COMP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="LAYER" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBA_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SBC_MTHD" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SBC_TYPE" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="ID2" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="COM_ID" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="COM_ID2" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="RQST" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="RSLT" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_DESC" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCK" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SVC" msdata:Caption="" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SYS_ERR">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SE_NUM" msdata:Caption="" type="xs:int" minOccurs="0" />
+                <xs:element name="SE_TYPE" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SE_DESC" msdata:Caption="" type="xs:string" minOccurs="0" />
+                <xs:element name="SE_CODE" msdata:Caption="" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SYS_BM_ACT>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBA_ID2>NumAdd</SBA_ID2>
+    <SBA_RQST>입력</SBA_RQST>
+    <SBA_TRGT />
+    <SBA_RSLT>출력</SBA_RSLT>
+    <SBA_TYPE>MG</SBA_TYPE>
+    <SBA_NAME />
+    <SBA_DESC>NumAdd</SBA_DESC>
+    <SBO_ID>TestComponent_1753966244622</SBO_ID>
+    <SBA_DEBUG>F</SBA_DEBUG>
+    <SBA_LANG>JAVA</SBA_LANG>
+    <SBA_INDX>i</SBA_INDX>
+    <SBA_STAT>C</SBA_STAT>
+    <SU_ID>sample</SU_ID>
+    <SBA_STMP>2025-07-31T22:05:31.733+09:00</SBA_STMP>
+    <SBA_DATA>&lt;NewDataSet&gt;
+  &lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+    &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+      &lt;xs:complexType&gt;
+        &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+          &lt;xs:element name="입력"&gt;
+            &lt;xs:complexType&gt;
+              &lt;xs:sequence&gt;
+                &lt;xs:element name="N" msdata:Caption="" type="xs:int" minOccurs="0" /&gt;
+              &lt;/xs:sequence&gt;
+            &lt;/xs:complexType&gt;
+          &lt;/xs:element&gt;
+          &lt;xs:element name="출력"&gt;
+            &lt;xs:complexType&gt;
+              &lt;xs:sequence&gt;
+                &lt;xs:element name="SUM" msdata:Caption="" type="xs:int" minOccurs="0" /&gt;
+              &lt;/xs:sequence&gt;
+            &lt;/xs:complexType&gt;
+          &lt;/xs:element&gt;
+        &lt;/xs:choice&gt;
+      &lt;/xs:complexType&gt;
+    &lt;/xs:element&gt;
+  &lt;/xs:schema&gt;
+&lt;/NewDataSet&gt;</SBA_DATA>
+    <SBA_UPCHK>T</SBA_UPCHK>
+  </SYS_BM_ACT>
+  <SYS_BM_ACT_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBAD_GRID>160,74</SBAD_GRID>
+    <SBAD_RATE>1</SBAD_RATE>
+  </SYS_BM_ACT_DISP>
+  <SYS_BM_CMD>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>0</SBC_NUM>
+    <SBC_TYPE>STRT</SBC_TYPE>
+  </SYS_BM_CMD>
+  <SYS_BM_CMD>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>1</SBC_NUM>
+    <SBC_TYPE>ENDD</SBC_TYPE>
+  </SYS_BM_CMD>
+  <SYS_BM_CMD>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>2</SBC_NUM>
+    <SBC_TYPE>TRFS</SBC_TYPE>
+    <SBC_RAW>입력.getRow(0).getInt("N") &gt; 1</SBC_RAW>
+    <SBC_CMNT />
+    <SBC_SUBS>N&lt;NewDataSet&gt;
+  &lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+    &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+      &lt;xs:complexType&gt;
+        &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+          &lt;xs:element name="TBWIZARD"&gt;
+            &lt;xs:complexType&gt;
+              &lt;xs:sequence&gt;
+                &lt;xs:element name="Type" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="Name" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="Index" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="Value" type="xs:string" minOccurs="0" /&gt;
+              &lt;/xs:sequence&gt;
+            &lt;/xs:complexType&gt;
+          &lt;/xs:element&gt;
+        &lt;/xs:choice&gt;
+      &lt;/xs:complexType&gt;
+    &lt;/xs:element&gt;
+  &lt;/xs:schema&gt;
+  &lt;TBWIZARD&gt;
+    &lt;Type&gt;Variable&lt;/Type&gt;
+    &lt;Name&gt;Input.입력.N&lt;/Name&gt;
+    &lt;Index&gt;0&lt;/Index&gt;
+    &lt;Value&gt;입력.getRow(0).getInt("N")&lt;/Value&gt;
+  &lt;/TBWIZARD&gt;
+  &lt;TBWIZARD&gt;
+    &lt;Type&gt;Compare&lt;/Type&gt;
+    &lt;Name&gt;Grater&lt;/Name&gt;
+    &lt;Index /&gt;
+    &lt;Value&gt;&amp;gt;&lt;/Value&gt;
+  &lt;/TBWIZARD&gt;
+  &lt;TBWIZARD&gt;
+    &lt;Type&gt;Constant&lt;/Type&gt;
+    &lt;Name&gt;Constant&lt;/Name&gt;
+    &lt;Index /&gt;
+    &lt;Value&gt;1&lt;/Value&gt;
+  &lt;/TBWIZARD&gt;
+&lt;/NewDataSet&gt;</SBC_SUBS>
+  </SYS_BM_CMD>
+  <SYS_BM_CMD>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>3</SBC_NUM>
+    <SBC_MTHD>101</SBC_MTHD>
+    <SBC_TYPE>ERRR</SBC_TYPE>
+    <SBC_CMNT />
+    <SBC_SUBS>&lt;NewDataSet&gt;
+  &lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+    &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+      &lt;xs:complexType&gt;
+        &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+          &lt;xs:element name="REPLACE_STRING"&gt;
+            &lt;xs:complexType&gt;
+              &lt;xs:sequence&gt;
+                &lt;xs:element name="SET_NAME" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="INDEX" type="xs:string" default="0" minOccurs="0" /&gt;
+                &lt;xs:element name="ITEM_NAME" type="xs:string" minOccurs="0" /&gt;
+              &lt;/xs:sequence&gt;
+            &lt;/xs:complexType&gt;
+          &lt;/xs:element&gt;
+        &lt;/xs:choice&gt;
+      &lt;/xs:complexType&gt;
+    &lt;/xs:element&gt;
+  &lt;/xs:schema&gt;
+&lt;/NewDataSet&gt;</SBC_SUBS>
+  </SYS_BM_CMD>
+  <SYS_BM_CMD>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>5</SBC_NUM>
+    <SBC_TYPE>LOOP</SBC_TYPE>
+    <SBC_RAW>i &lt;= 입력.getRow(0).getInt("N")</SBC_RAW>
+    <SBC_CMNT />
+    <SBC_INDX>i=1,i+=1</SBC_INDX>
+    <SBC_SUBS>N&lt;NewDataSet&gt;
+  &lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+    &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+      &lt;xs:complexType&gt;
+        &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+          &lt;xs:element name="TBWIZARD"&gt;
+            &lt;xs:complexType&gt;
+              &lt;xs:sequence&gt;
+                &lt;xs:element name="Type" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="Name" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="Index" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="Value" type="xs:string" minOccurs="0" /&gt;
+              &lt;/xs:sequence&gt;
+            &lt;/xs:complexType&gt;
+          &lt;/xs:element&gt;
+        &lt;/xs:choice&gt;
+      &lt;/xs:complexType&gt;
+    &lt;/xs:element&gt;
+  &lt;/xs:schema&gt;
+  &lt;TBWIZARD&gt;
+    &lt;Type&gt;Index&lt;/Type&gt;
+    &lt;Name&gt;i&lt;/Name&gt;
+    &lt;Index /&gt;
+    &lt;Value&gt;i&lt;/Value&gt;
+  &lt;/TBWIZARD&gt;
+  &lt;TBWIZARD&gt;
+    &lt;Type&gt;Compare&lt;/Type&gt;
+    &lt;Name&gt;btnLessOrEqual&lt;/Name&gt;
+    &lt;Index /&gt;
+    &lt;Value&gt;&amp;lt;=&lt;/Value&gt;
+  &lt;/TBWIZARD&gt;
+  &lt;TBWIZARD&gt;
+    &lt;Type&gt;Variable&lt;/Type&gt;
+    &lt;Name&gt;Input.입력.N&lt;/Name&gt;
+    &lt;Index&gt;0&lt;/Index&gt;
+    &lt;Value&gt;입력.getRow(0).getInt("N")&lt;/Value&gt;
+  &lt;/TBWIZARD&gt;
+&lt;/NewDataSet&gt;</SBC_SUBS>
+  </SYS_BM_CMD>
+  <SYS_BM_CMD>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>6</SBC_NUM>
+    <SBC_MTHD>출력</SBC_MTHD>
+    <SBC_TYPE>EXPR</SBC_TYPE>
+    <SBC_RAW>DataRow dr; 
+if ( refDS.getTable("출력").getRowCount() == 0) 
+{ 
+    dr = refDS.getTable("출력").addRow();
+} 
+refDS.getTable("출력").getRow(0).setObject("SUM", 출력.getRow(0).getInt("SUM") + i);
+</SBC_RAW>
+    <SBC_CMNT />
+    <SBC_INDX>0</SBC_INDX>
+    <SBC_SUBS>N&lt;NewDataSet&gt;
+  &lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+    &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+      &lt;xs:complexType&gt;
+        &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+          &lt;xs:element name="TBVARITEM"&gt;
+            &lt;xs:complexType&gt;
+              &lt;xs:sequence&gt;
+                &lt;xs:element name="TYPE" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="NAME" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="EQUAL" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="VALUE" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="WIZARD" type="xs:string" minOccurs="0" /&gt;
+              &lt;/xs:sequence&gt;
+            &lt;/xs:complexType&gt;
+          &lt;/xs:element&gt;
+          &lt;xs:element name="TBSETINDEX"&gt;
+            &lt;xs:complexType&gt;
+              &lt;xs:sequence&gt;
+                &lt;xs:element name="VARSET" type="xs:string" minOccurs="0" /&gt;
+                &lt;xs:element name="INDEX" type="xs:string" minOccurs="0" /&gt;
+              &lt;/xs:sequence&gt;
+            &lt;/xs:complexType&gt;
+          &lt;/xs:element&gt;
+        &lt;/xs:choice&gt;
+      &lt;/xs:complexType&gt;
+    &lt;/xs:element&gt;
+  &lt;/xs:schema&gt;
+  &lt;TBVARITEM&gt;
+    &lt;TYPE&gt;Int32&lt;/TYPE&gt;
+    &lt;NAME&gt;SUM&lt;/NAME&gt;
+    &lt;VALUE&gt;출력.getRow(0).getInt("SUM") + i&lt;/VALUE&gt;
+    &lt;WIZARD&gt;&amp;lt;NewDataSet&amp;gt;
+  &amp;lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&amp;gt;
+    &amp;lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&amp;gt;
+      &amp;lt;xs:complexType&amp;gt;
+        &amp;lt;xs:choice minOccurs="0" maxOccurs="unbounded"&amp;gt;
+          &amp;lt;xs:element name="TBWIZARD"&amp;gt;
+            &amp;lt;xs:complexType&amp;gt;
+              &amp;lt;xs:sequence&amp;gt;
+                &amp;lt;xs:element name="Type" type="xs:string" minOccurs="0" /&amp;gt;
+                &amp;lt;xs:element name="Name" type="xs:string" minOccurs="0" /&amp;gt;
+                &amp;lt;xs:element name="Index" type="xs:string" minOccurs="0" /&amp;gt;
+                &amp;lt;xs:element name="Value" type="xs:string" minOccurs="0" /&amp;gt;
+              &amp;lt;/xs:sequence&amp;gt;
+            &amp;lt;/xs:complexType&amp;gt;
+          &amp;lt;/xs:element&amp;gt;
+        &amp;lt;/xs:choice&amp;gt;
+      &amp;lt;/xs:complexType&amp;gt;
+    &amp;lt;/xs:element&amp;gt;
+  &amp;lt;/xs:schema&amp;gt;
+  &amp;lt;TBWIZARD&amp;gt;
+    &amp;lt;Type&amp;gt;Variable&amp;lt;/Type&amp;gt;
+    &amp;lt;Name&amp;gt;Output.출력.SUM&amp;lt;/Name&amp;gt;
+    &amp;lt;Index&amp;gt;0&amp;lt;/Index&amp;gt;
+    &amp;lt;Value&amp;gt;출력.getRow(0).getInt("SUM")&amp;lt;/Value&amp;gt;
+  &amp;lt;/TBWIZARD&amp;gt;
+  &amp;lt;TBWIZARD&amp;gt;
+    &amp;lt;Type&amp;gt;Calculate&amp;lt;/Type&amp;gt;
+    &amp;lt;Name&amp;gt;Add&amp;lt;/Name&amp;gt;
+    &amp;lt;Index /&amp;gt;
+    &amp;lt;Value&amp;gt;+&amp;lt;/Value&amp;gt;
+  &amp;lt;/TBWIZARD&amp;gt;
+  &amp;lt;TBWIZARD&amp;gt;
+    &amp;lt;Type&amp;gt;Constant&amp;lt;/Type&amp;gt;
+    &amp;lt;Name&amp;gt;Constant&amp;lt;/Name&amp;gt;
+    &amp;lt;Index /&amp;gt;
+    &amp;lt;Value&amp;gt;i&amp;lt;/Value&amp;gt;
+  &amp;lt;/TBWIZARD&amp;gt;
+&amp;lt;/NewDataSet&amp;gt;&lt;/WIZARD&gt;
+  &lt;/TBVARITEM&gt;
+  &lt;TBSETINDEX&gt;
+    &lt;VARSET&gt;출력&lt;/VARSET&gt;
+    &lt;INDEX&gt;0&lt;/INDEX&gt;
+  &lt;/TBSETINDEX&gt;
+&lt;/NewDataSet&gt;</SBC_SUBS>
+  </SYS_BM_CMD>
+  <SYS_BM_CMD_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>0</SBC_NUM>
+    <SBCD_TYPE>START</SBCD_TYPE>
+    <SBCD_NAME />
+    <SBCD_CELL>1,0</SBCD_CELL>
+    <SBCD_CONN>XXXX</SBCD_CONN>
+    <SBCD_PICK>F</SBCD_PICK>
+  </SYS_BM_CMD_DISP>
+  <SYS_BM_CMD_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>1</SBC_NUM>
+    <SBCD_TYPE>END</SBCD_TYPE>
+    <SBCD_NAME />
+    <SBCD_CELL>3,4</SBCD_CELL>
+    <SBCD_CONN>XXXX</SBCD_CONN>
+    <SBCD_PICK>F</SBCD_PICK>
+  </SYS_BM_CMD_DISP>
+  <SYS_BM_CMD_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>2</SBC_NUM>
+    <SBCD_TYPE>IF</SBCD_TYPE>
+    <SBCD_NAME />
+    <SBCD_CELL>1,1</SBCD_CELL>
+    <SBCD_CONN>XXXX</SBCD_CONN>
+    <SBCD_PICK>F</SBCD_PICK>
+  </SYS_BM_CMD_DISP>
+  <SYS_BM_CMD_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>3</SBC_NUM>
+    <SBCD_TYPE>ERRR</SBCD_TYPE>
+    <SBCD_NAME />
+    <SBCD_CELL>0,1</SBCD_CELL>
+    <SBCD_CONN>XXXX</SBCD_CONN>
+    <SBCD_PICK>F</SBCD_PICK>
+  </SYS_BM_CMD_DISP>
+  <SYS_BM_CMD_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>5</SBC_NUM>
+    <SBCD_TYPE>LOOP</SBCD_TYPE>
+    <SBCD_NAME />
+    <SBCD_CELL>2,2</SBCD_CELL>
+    <SBCD_CONN>XXXX</SBCD_CONN>
+    <SBCD_PICK>F</SBCD_PICK>
+  </SYS_BM_CMD_DISP>
+  <SYS_BM_CMD_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>6</SBC_NUM>
+    <SBCD_TYPE>SUBSTITUTE</SBCD_TYPE>
+    <SBCD_NAME />
+    <SBCD_CELL>2,3</SBCD_CELL>
+    <SBCD_CONN>XXXX</SBCD_CONN>
+    <SBCD_PICK>F</SBCD_PICK>
+  </SYS_BM_CMD_DISP>
+  <SYS_BM_NXT>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>0</SBC_NUM>
+    <SBN_NUM>2</SBN_NUM>
+    <SBN_CVAL>0.Arc</SBN_CVAL>
+  </SYS_BM_NXT>
+  <SYS_BM_NXT>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>2</SBC_NUM>
+    <SBN_NUM>3</SBN_NUM>
+    <SBN_CVAL>2.false</SBN_CVAL>
+    <SBN_CMIN>0</SBN_CMIN>
+    <SBN_CMAX>0</SBN_CMAX>
+  </SYS_BM_NXT>
+  <SYS_BM_NXT>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>2</SBC_NUM>
+    <SBN_NUM>5</SBN_NUM>
+    <SBN_CVAL>2.true</SBN_CVAL>
+    <SBN_CMIN>1</SBN_CMIN>
+    <SBN_CMAX>1</SBN_CMAX>
+  </SYS_BM_NXT>
+  <SYS_BM_NXT>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>5</SBC_NUM>
+    <SBN_NUM>6</SBN_NUM>
+    <SBN_CVAL>5.true</SBN_CVAL>
+    <SBN_CMIN>1</SBN_CMIN>
+    <SBN_CMAX>1</SBN_CMAX>
+  </SYS_BM_NXT>
+  <SYS_BM_NXT>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>5</SBC_NUM>
+    <SBN_NUM>1</SBN_NUM>
+    <SBN_CVAL>5.false</SBN_CVAL>
+    <SBN_CMIN>0</SBN_CMIN>
+    <SBN_CMAX>0</SBN_CMAX>
+  </SYS_BM_NXT>
+  <SYS_BM_NXT>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>6</SBC_NUM>
+    <SBN_NUM>5</SBN_NUM>
+    <SBN_CVAL>6.Arc</SBN_CVAL>
+  </SYS_BM_NXT>
+  <SYS_BM_NXT_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>0</SBC_NUM>
+    <SBN_NUM>2</SBN_NUM>
+    <SBND_NAME>:</SBND_NAME>
+    <SBND_DOTS>240,59;240,89</SBND_DOTS>
+    <SBND_NMPT>0,0</SBND_NMPT>
+    <SBND_PICK>F:1</SBND_PICK>
+    <SBC_CNM>bottom</SBC_CNM>
+    <SBN_CNM>top</SBN_CNM>
+  </SYS_BM_NXT_DISP>
+  <SYS_BM_NXT_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>2</SBC_NUM>
+    <SBN_NUM>3</SBN_NUM>
+    <SBND_NAME>false:</SBND_NAME>
+    <SBND_DOTS>175,111;145,111</SBND_DOTS>
+    <SBND_NMPT>5,5</SBND_NMPT>
+    <SBND_PICK>F:2</SBND_PICK>
+    <SBC_CNM>left</SBC_CNM>
+    <SBN_CNM>right</SBN_CNM>
+  </SYS_BM_NXT_DISP>
+  <SYS_BM_NXT_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>2</SBC_NUM>
+    <SBN_NUM>5</SBN_NUM>
+    <SBND_NAME>true:</SBND_NAME>
+    <SBND_DOTS>305,111;400,111;400,163</SBND_DOTS>
+    <SBND_NMPT>5,5</SBND_NMPT>
+    <SBND_PICK>F:3</SBND_PICK>
+    <SBC_CNM>right</SBC_CNM>
+    <SBN_CNM>top</SBN_CNM>
+  </SYS_BM_NXT_DISP>
+  <SYS_BM_NXT_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>5</SBC_NUM>
+    <SBN_NUM>6</SBN_NUM>
+    <SBND_NAME>true:</SBND_NAME>
+    <SBND_DOTS>400,207;400,237</SBND_DOTS>
+    <SBND_NMPT>5,0</SBND_NMPT>
+    <SBND_PICK>F:6</SBND_PICK>
+    <SBC_CNM>bottom</SBC_CNM>
+    <SBN_CNM>top</SBN_CNM>
+  </SYS_BM_NXT_DISP>
+  <SYS_BM_NXT_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>5</SBC_NUM>
+    <SBN_NUM>1</SBN_NUM>
+    <SBND_NAME>false:</SBND_NAME>
+    <SBND_DOTS>465,185;560,185;560,259;560,311</SBND_DOTS>
+    <SBND_NMPT>5,5</SBND_NMPT>
+    <SBND_PICK>F:7</SBND_PICK>
+    <SBC_CNM>right</SBC_CNM>
+    <SBN_CNM>top</SBN_CNM>
+  </SYS_BM_NXT_DISP>
+  <SYS_BM_NXT_DISP>
+    <SBA_ID>NumAdd_1753967131678</SBA_ID>
+    <SBC_NUM>6</SBC_NUM>
+    <SBN_NUM>5</SBN_NUM>
+    <SBND_NAME>:</SBND_NAME>
+    <SBND_DOTS>400,281;400,333;240,333;240,259;240,185;335,185</SBND_DOTS>
+    <SBND_NMPT>0,5</SBND_NMPT>
+    <SBND_PICK>F:4</SBND_PICK>
+    <SBC_CNM>bottom</SBC_CNM>
+    <SBN_CNM>left</SBN_CNM>
+  </SYS_BM_NXT_DISP>
+  <SYS_ERR>
+    <SE_NUM>100</SE_NUM>
+    <SE_TYPE />
+    <SE_DESC>Book copy information exists.</SE_DESC>
+    <SE_CODE>TST0001</SE_CODE>
+  </SYS_ERR>
+</DATASET>
